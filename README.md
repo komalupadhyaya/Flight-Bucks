@@ -1,6 +1,6 @@
-# FlightMitra
+# Flightbucks
 
-FlightMitra is a modern web application designed to streamline travel planning, offering an intuitive interface for exploring flight and ground travel options. Featuring a sleek dark theme with vibrant purple accents and custom SVG assets, FlightMitra combines aesthetic appeal with user-friendly functionality.
+Flightbucks is a modern web application designed to streamline travel planning, offering an intuitive interface for exploring flight and ground travel options. Featuring a sleek dark theme with vibrant purple accents and custom SVG assets, FlightMitra combines aesthetic appeal with user-friendly functionality.
 
 
 ## Features
@@ -23,8 +23,8 @@ FlightMitra is a modern web application designed to streamline travel planning, 
 
 1. **Clone the Repository**:
 ```bash
-git clone https://github.com/poojasoftiatric/FlightMitra.git
-cd flightmitra
+git clone https://github.com/komalupadhyaya/Flight-Bucks.git
+cd flightbucks
 ```
 
 2. **INstalling the dependences**

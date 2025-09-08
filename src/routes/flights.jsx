@@ -10,7 +10,7 @@ import { tabTitle } from '../functions';
 
 function Flights() {
 
-  tabTitle('Flights | Flight Mitra')
+  tabTitle('Flights | Flight Bucks')
 
     const [isLoaded, setIsLoaded] = useState(false);
     const [buttonLoading, setButtonLoading] = useState(false);

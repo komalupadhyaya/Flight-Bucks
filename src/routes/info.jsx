@@ -22,7 +22,7 @@ const version = '1.1.0';
 
 function Info() {
 
-    tabTitle('Info | Flight Mitra')
+    tabTitle('Info | Flight Bucks')
 
   return (
     <>
@@ -30,12 +30,12 @@ function Info() {
             <Grid container sx={{mt:5}}>
                 <Grid item md={3}></Grid>
                 <Grid item xs={12} md={6} sx={{border:'1.2px solid var(--gray)', p:2, borderRadius:'0.4em'}}>
-                    <Typography variant="h5" sx={{fontFamily:'var(--displayFont)', fontWeight:800, display:{xs:'none',md:'block'}}}><img src={logo} style={{width:'4%'}} />Flight Mitra</Typography>
-                    <Typography variant="h5" sx={{fontFamily:'var(--displayFont)', fontWeight:800, display:{xs:'block',md:'none'}}}><img src={logo} style={{width:'7%'}} />Flight Mitra</Typography>
+                    <Typography variant="h5" sx={{fontFamily:'var(--displayFont)', fontWeight:800, display:{xs:'none',md:'block'}}}><img src={logo} style={{width:'4%'}} />Flight Bucks</Typography>
+                    <Typography variant="h5" sx={{fontFamily:'var(--displayFont)', fontWeight:800, display:{xs:'block',md:'none'}}}><img src={logo} style={{width:'7%'}} />Flight Bucks</Typography>
 
                     <Typography sx={{mt:1}}><b>Description:</b> A website for searching cheap domestic flights in India.</Typography>
-                    <Typography><b>Github Repository:</b> <a href="https://github.com/poojasoftiatric/FlightMitra" target="_blank" rel="noreferrer" style={{color:'var(--indigo)'}}>Flight Mitra</a></Typography>
-                    <Typography><b>Developed by:</b> <a href="https://github.com/poojasoftiatric/" target="_blank" rel="noreferrer" style={{color:'var(--indigo)'}}>Pooja Kaushal</a></Typography>
+                    <Typography><b>Github Repository:</b> <a href="https://github.com/komalupadhyaya/Flight-Bucks.git" target="_blank" rel="noreferrer" style={{color:'var(--indigo)'}}>Flight Bucks</a></Typography>
+                    <Typography><b>Developed by:</b> <a href="https://github.com/komalupadhyaya/" target="_blank" rel="noreferrer" style={{color:'var(--indigo)'}}>Komal</a></Typography>
                     <Typography><b>Version:</b> {version}</Typography>
                 </Grid>
                 <Grid item md={3}></Grid>

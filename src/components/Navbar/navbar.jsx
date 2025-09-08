@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('poojasoftiatric@gmail.com')
+    navigator.clipboard.writeText('Flight Buckssoftiatric@gmail.com')
     .then(() => {setNotification(true)})
     .catch(() => {setErrNotif(true)});
   }
@@ -59,7 +59,7 @@ function ResponsiveAppBar() {
     <AppBar position="static" sx={{ backgroundColor: "var(--dark)", boxShadow: "none" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={logo} style={{ width: '2%' }} className="xs-none md-flex" alt="Flight Mitra Logo" />
+          <img src={logo} style={{ width: '2%' }} className="xs-none md-flex" alt="Flight Bucks Logo" />
           <Typography
             variant="h6"
             noWrap
@@ -74,10 +74,10 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            Flight Mitra
+            Flight Bucks
           </Typography>
 
-          <img src={logo} alt="Flight Mitra logo" className='xs-flex md-none' style={{ width: '6%' }} />
+          <img src={logo} alt="Flight Bucks logo" className='xs-flex md-none' style={{ width: '6%' }} />
           <Typography
             variant="h6"
             noWrap
@@ -93,7 +93,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            Flight Mitra
+            Flight Bucks
           </Typography>
 
           <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
@@ -152,7 +152,7 @@ function ResponsiveAppBar() {
                 key={page}
                 onClick={() => {
                   if (page === 'github') {
-                    window.location.href=`https://github.com/poojasoftiatric/FlightMitra`
+                    window.location.href=`https://github.com/komalupadhyaya/Flight-Bucks.git`
                   } else {
                     window.location.href=`/${page}`
                   }
